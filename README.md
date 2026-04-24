@@ -20,3 +20,6 @@ npx expo install react-native-screens react-native-safe-area-context
 
 ## Responsive UI
 npm install -save react-native-size-matters
+
+## React navigation tabs
+npm install @react-navigation/bottom-tabs

@@ -17,7 +17,7 @@ const PurpleScreen = () => {
         <Text style={styles.navigationText}>Go to Gold Screen {'>>>'}</Text>
       </TouchableOpacity> 
 
-      <Text style={styles.paramText}>Name: {params.name}</Text>
+      <Text style={styles.paramText}>Name: {params?.name}</Text>
     </View>
   )
 }
