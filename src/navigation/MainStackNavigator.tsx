@@ -7,7 +7,10 @@ const Stack = createStackNavigator()
 
 function MainStackNavigator () {
   return (
-      <Stack.Navigator id="MainStack">
+      <Stack.Navigator id="MainStack" 
+        screenOptions={{headerShown: false}}
+        initialRouteName='PurpleScreen'
+      >
         <Stack.Screen name='PurpleScreen' component={PurpleScreen} />
         <Stack.Screen name='GoldScreen' component={GoldScreen} />
         <Stack.Screen name='TomatoScreen' component={TomatoScreen} />
