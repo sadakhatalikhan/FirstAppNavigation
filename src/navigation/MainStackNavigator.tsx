@@ -9,7 +9,7 @@ function MainStackNavigator () {
   return (
       <Stack.Navigator id="MainStack" 
         screenOptions={{headerShown: false}}
-        initialRouteName='PurpleScreen'
+        initialRouteName='TomatoScreen'
       >
         <Stack.Screen name='PurpleScreen' component={PurpleScreen} />
         <Stack.Screen name='GoldScreen' component={GoldScreen} />

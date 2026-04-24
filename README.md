@@ -17,3 +17,6 @@ https://reactnavigation.org/docs/stack-navigator/
 ### Install important dependencies 
 npm install @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context
+
+## Responsive UI
+npm install -save react-native-size-matters
